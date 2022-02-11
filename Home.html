@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bureau of Investigation Clearance</title>
+	<link rel="stylesheet" type="text/css" href="Home.css">
+</head>
+<body>
+	<div class="userinput">
+		<form id="registration">
+			<label for="clearancebranchname">Clearance Branch Name:</label>
+			<select id="clearancebranchname" name="clearancebranchname">
+				<option value="branchname" selected="" disabled=""> Select Branch Name</option>
+				<option value="branchname1"> Branch Name 1</option>
+				<option value="branchname2"> Branch Name 2</option>
+				<option value="branchname3"> Branch Name 3</option>
+				<option value="branchname4"> Branch Name 4</option>
+				<option value="branchname5"> Branch Name 5</option>
+			</select> 
+			<br>
+
+			<label for="date">Date:</label>
+			<input type="date" name="date" id="date">
+			<br>
+
+			<label for="validid">Valid ID:</label>
+			<select id="validid" name="validid">
+				<option value="selectid" selected="" disabled=""> Select Valid ID</option>
+				<option value="validpassport"> Valid Passport</option>
+				<option value="voter'sid"> Voter's ID</option>
+				<option value="driver'sid"> Driver's ID</option>
+				<option value="prclicense"> PRC License</option>
+				<option value="sssid"> SSS ID</option>
+				<option value="gsisumid"> GSIS UMID</option>
+				<option value="postalid"> Postal ID</option>
+				<option value="schoolid"> School ID</option>
+				<option value="tinid"> TIN ID</option>
+				<option value="philhealthid"> PhilHealth ID</option>
+				<option value="authenticatedbirthcertificate"> Authenticated Birth Certificate</option>
+				<option value="aliencertofregistration"> Alien Cert of Registration</option>
+				<option value="seniorcitizen"> Senior Citizen</option>
+			</select> 
+
+			<h3>Personal Information</h3>
+			<label for="completename">Complete Name:</label>
+			<input type="text" name="completename" placeholder="Enter Complete Name"><br>
+			<label for="husbandssurnameformarriedwoman">Husband's Surname for Married Woman:</label>
+			<input type="text" name="husbandssurnameformarriedwoman" placeholder=" Enter Husband's Surname for Married Woman"><br>
+			<label for="nickname">Nickname:</label>
+			<input type="text" name="nickname" placeholder="Enter Nickname"><br>
+			<label for="othername">Other Name:</label><br>
+			<input type="text" name="othername" placeholder="Enter Other Name"><br>
+			<label for="presentaddress">Present Address:</label>
+			<input type="text" name="presentaddress" placeholder="Enter Present Address"><br>
+			<label for="dateofbirth">Date of Birth</label>
+			<input type="date" name="dateofbirth" id="dateofbirth">
+			<br>
+
+			<label for="highesteducationalattainment">Highest Educational Attainment:</label>
+			<select id="highesteducationalattainment" name="highesteducationalattainment">
+				<option value="selecthighesteducationalattainment" selected="" disabled=""> Select Highest Educational Attainment:</option>
+				<option value="elementary"> Elementary</option>
+				<option value="highschool"> High School</option>
+				<option value="college"> College</option>
+			</select>
+			<br>
+
+			<label for="contactnumbers">Contact Numbers:</label>
+			<input type="text" name="contactnumbers" placeholder="Enter Contact Numbers"><br>
+			<label for="emailaddress">Email Address:</label>
+			<input type="Email" name="emailaddress" placeholder="Enter Email Address"><br>
+			
+			<div class="gender">
+			
+			<input type="radio" name="male" id="male"> Male 
+			<input type="radio" name="female" id="female"> Female 
+			</div>
+			
+			<label for="Citizenship">Citizenship:</label>
+			<input type="text" name="citizenship" placeholder="Enter Citizenship"><br>
+			<label for="complexion">Complexion:</label>
+			<select id="complexion" name="complexion">
+				<option value="selectcomplexion" selected="" disabled=""> Select Complexion</option>
+				<option value="light"> Light</option>
+				<option value="fair"> Fair</option>
+				<option value="medium"> Medium</option>
+				<option value="olive"> Olive</option>
+				<option value="tan"> Tan</option>
+				<option value="black"> Black</option>
+			</select>
+			<br>
+
+			<label for="scarsmarkspeculiarities">Scars/Marks/Peculiarities:</label>
+			<input type="text" name="scarsmarkspeculiarities" placeholder="Enter Scars/Marks/Peculiarities"><br>
+
+			<label for="religion">Religion:</label>
+			<input type="text" name="religion" placeholder="Enter Religion"><br>
+
+			<label for="height">Height:</label>
+			<input type="range" class="height" min="0" max="1000"><br>
+
+			<label for="weight">Weight:</label>
+			<input type="range" class="weight" min="0" max="1000"><br>
+
+			<label for="nameforhusbandorwifeformarriedapplicants">Name for Husband or Wife for Married Applicants:</label>
+			<input type="text" name="nameforhusbandorwifeformarriedapplicants" placeholder="Enter Name for Husband or Wife for Married Applicants"><br>
+
+			<label for="nameoffather">Name of Father:</label>
+			<input type="text" name="nameoffather" placeholder="Enter Name of Father"><br>
+
+			<label for="placeofbirth">Place of Birth</label>
+			<input type="text" name="placeofbirth1" placeholder="Enter Place of Birth"><br>
+
+			<label for="nameofmother">Name of Mother:</label>
+			<input type="text" name="nameofmother" placeholder="Enter Name of Mother"><br>
+
+			<label for="placeofbirth">Place of Birth:</label>
+			<input type="text" name="placeofbirth2" placeholder="Enter Place of Birth"><br>
+
+			<button type="submit" class="button">Submit</button>
+
+
+
+		</form>
+		
+		
+		
+	</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+<script src="Login.js"></script>
+</body>
+</html>
