@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!----- Tab Name ----->
+<title>Information System Registration</title>
+	<link rel="stylesheet" type="text/css" href="Login.css">
+</head>
+
+<body>
+	<!----- Header ----->
+	<div class="box">
+	<div class="header">
+	<div class="container">
+		<div class="logo">
+			<h1>INFORMATION SYSTEM REGISTRATION</h1>
+		</div>
+		<div class="navigation">
+			<a href="Login.html">LOGIN</a>
+		</div>
+	</div>
+	</div>
+	<br><br><br>
+	<!----- Login Page Image ----->
+	<div class="image">
+	</div>
+	<!----- Login Box ----->
+	<div class="loginbox">
+		<h1>Login</h1>
+		<form id="registration" action="Home.html">
+			<!----- Username ----->
+			<div class="username">
+				<label for="username">Username:</label>
+				<input type="text" id="username" name="username" placeholder="Enter Username"><br>
+			</div>
+			<!----- Passwod ----->
+			<div class="password">
+				<label for="password">Password:</label>
+				<input type="text" id="password" name="password" placeholder="Enter Password"><br>
+			</div>
+			<br>
+			<!----- Button ----->
+			<input type="button" name="login" value="Login" onclick="validate()">
+		</form>
+	</div>
+	<footer>
+		<!----- Footer----->
+		<div class="copyright">
+			<p>COPYRIGHT © 2022. INFORMATION SYSTEM REGISTRATION</p>
+		</div>
+	</div>
+	</footer>
+<!----- Scripts ----->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+<script src="Login.js"></script>
+</body>
+</html>
